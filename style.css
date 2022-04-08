@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+   .latha{
+    height: 293px;
+    width: 326px;
+   }
+
+   .asha{
+    height: 275px;
+    width: 308px;
+   }
+
+   .indiraji{
+    height: 295px;
+    width: 300px;
+    margin-top: 20px;
+   }
+
+
+   .five{
+       margin-top: 20px;
+   }
+   #main{
+       text-align: center;
+      
+       background-color: burlywood;
+       min-height: 114px;
+       
+   }
+
+
+   #main h1{
+       font-size: 55px;
+       font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   #main p{
+font-size: 25px;
+color:rgb(18, 18, 92)
+   }
+
+
+   #title{
+    margin-top: 20px;
+
+   }
+
+   .img{
+       background-color: #D0ECE7;
+       min-height: 110vh;
+
+   }
+
+   #tribute-info{
+       font-size: 19px;
+       line-height: 30px;
+       margin-top: 25px;
+       padding: 30px 30px 30px 30px;
+       text-align: center;
+
+   }
+.but{
+    margin-left: 43%;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #641E16;
+    padding: 13px 13px;
+    font-size: 16px;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.but:hover{
+    background-color: bisque;
+    color: darkmagenta;
+}
+
+
+  @media only screen and (max-width:480px) { 
+    /* Smartphone view: 1 tile */
+    .box {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width:650px) and (min-width:481px) { 
+    /* Tablet view: 2 tiles */
+    .box {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width:1050px) and (min-width:651px) { 
+    /* Small desktop / ipad view: 3 tiles */
+    .box {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (max-width:1290px) and (min-width:1051px) { 
+    /* Medium desktop: 4 tiles */
+    .box {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}
